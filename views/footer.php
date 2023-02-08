@@ -1,5 +1,5 @@
 <footer>
-        <div class="bg-dark text-white  p-4 mt-5">
+        <div class=" lg bg-dark text-white  p-4 mt-5">
                 <div class="row border-bottom pb-3">
                     <div class="col-4" >
                         <h5>LA BOULANGERIE</h5>

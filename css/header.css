@@ -2,7 +2,6 @@
 
 h1 { 
     color: palevioletred;
-
 }
 body {
     background-image: url(../img/fond.jpg);
@@ -28,19 +27,22 @@ a {
 }
 
 
-.panier {
+.compte {
     width: 40px;
+    height: 40px;
+}
+.panier {
+    width:40px;
     height: 40px;
 }
 @font-face {
     font-family: "DancingScript-Bold.ttf";
     src: url('https://fonts.googleapis.com/css2? family= Dancing+Script & display=swap');
 }
-.col-4 {
-    
-    width:400px ;
-    
-}
 
+.logo {
+    width:100px;
+    height: 80px;
+}
 
 
