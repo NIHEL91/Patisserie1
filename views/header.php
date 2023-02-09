@@ -1,10 +1,10 @@
 
 <header>
-<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+<nav class="navbar navbar-expand-lg  ">
         <div class="container-fluid">
             <img src="../img/logo.png" class="logo"/>
 
-            <a class="navbar-brand  px-3" href="#"><h5>Accueil</h5></a>
+            <a class="navbar-brand  px-3" href="index.php"><h5>Accueil</h5></a>
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
             </button>

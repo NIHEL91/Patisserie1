@@ -1,13 +1,14 @@
 /*nav {
     background-image: url(img/gateaux.jpeg); 
 }*/
-li  :hover{
-    background-color: rgb(65, 67, 68);
+body {
+    background-image: url(../img/gateaux.jpeg);
+}
+.formulaire {
+            margin-left:500px;
 }
 
-h2 {
-    font-family:juana;
-}
+
 
 
 

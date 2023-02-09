@@ -31,52 +31,43 @@ include 'views/header.php';
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+               
+                <a class="carousel-item active" href="../views/catalogues.html">
                     <img src="../img/deguste.jpg" alt="" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
-
                     <div class="container">
-                        <div class="carousel-caption text-start">
-                            <h1>Example headline.</h1>
-                            <p>
-                                Some representative placeholder content for the first slide of the carousel.
-                            </p>
-                            <p>
-                                <a class="btn btn-lg btn-primary" href="#">Sign up today</a>
-                            </p>
-                        </div>
+                            <div class="carousel-caption text-end text-warning">
+                                <h1>Chez nous</h1>
+                                <p>Encore plus de desserts</p>
+                            </div>
                     </div>
-                </div>
+                </a>
+
                 <div class="carousel-item">
-                    <img src="../img/gateaux.jpeg" alt="" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
-
-
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <h1>Another example headline.</h1>
-                            <p>
-                                Some representative placeholder content for the second slide of the carousel.
-                            </p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    <a class="lien " href="../views/catalogues.html">
+                        <img src="../img/amourmariage.jpg" alt="" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                        <div class="container">
+                            <div class="carousel-caption  text-dark">
+                                <h1>Offrez une déclaration gourmante à vos amours ! </h1>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
+
                 <div class="carousel-item">
-                    <img src="../img/evenement.avif" alt="" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
-
-
-                    <div class="container">
-                        <div class="carousel-caption text-end">
-                            <h1>One more for good measure.</h1>
-                            <p>
-                                Some representative placeholder content for the third slide of this carousel.
-                            </p>
-                            <p>
-                                <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
-                            </p>
+                    <a class="lien" href="../views/catalogues.html">
+                        <img src="../img/delicieux.jpg" alt="" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                        <div class="container">
+                            <div class="new ">
+                            <img src="../img/new.png" width="200px" height="200px"/>
+                            </div>
+                            <div class="carousel-caption  text-white text-start">
+                                <h1>Extra Délicieux ! </h1>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
+
             <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -100,7 +91,7 @@ include 'views/header.php';
                     MAGASIN
                 </p>
                 <p>
-                    <a class="btn btn-warning" href="#">View details &raquo;</a>
+                    <a class="btn btn-warning" href="#">Commander &raquo;</a>
                 </p>
             </div>
             <!-- /.col-lg-4 -->
@@ -113,7 +104,7 @@ include 'views/header.php';
                     EN MAGASIN
                 </p>
                 <p>
-                    <a class="btn btn-warning" href="#">View details &raquo;</a>
+                    <a class="btn btn-warning" href="#">Visiter &raquo;</a>
                 </p>
             </div>
             <!-- /.col-lg-4 -->
@@ -126,35 +117,34 @@ include 'views/header.php';
                     DE SAISON
                 </p>
                 <p>
-                    <a class="btn btn-warning" href="#">View details &raquo;</a>
+                    <a class="btn btn-warning" href="#">Découvrir &raquo;</a>
                 </p>
             </div>
             <!-- /.col-lg-4 -->
         </div>
+    </div>
 
 
-    <!--<div class="col-xl-10 col-xl-offset-1">
-        <div class="cat-bloc-title">
-            <small>Pour tous vos</small>
-            <p>Evenements</p>
-        </div>-->
         <div class="row">
            <div class="col-lg-6 ">
-               <a> <img src="../img/mariage1.webp" class="pub"> 
-                    <div class="cat-title">
-                        <small>Collection</small>
-                        <p>Anniversaire Enfant</p>
-                    </div>   
-                </a>
+                <img src="../img/mariage1.webp" class="pub1"/>  
             </div>
             <div class="col-lg-6 ">
-                <a>
-                    <img src="../img/mariage1.webp" class="pub"> 
-                        <div class="cat-title">
-                            <small>Collection</small>
-                            <p>Mariage</p>
-                        </div>    
-                </a>
+                <div class="cake-title">
+                    <h2>Pour tous vos Evenements</h2>
+                    <p>Collection de Mariage</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+           <div class="col-lg-6  ml-md-2">
+                    <div class="cake-title ">
+                        <h2>Collection Anniversaire Enfant</h2>
+                    </div> 
+            </div>
+            <div class="col-lg-6 ">
+                <img src="../img/anniversaire.jpg" class="pub2"/> 
             </div>
         </div>
     
@@ -162,7 +152,7 @@ include 'views/header.php';
         <?php
         include 'views/footer.php';
         ?>
-
+   
 </body>
 
 </html>
