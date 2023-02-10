@@ -1,6 +1,6 @@
 
 body {
-  background-image: url(../img/fond.jpg);
+  background-image: url(../public/img/fond.jpg);
 }
  .carousel-item {
   height: 32rem;
@@ -60,19 +60,21 @@ transition: all 2s ease;
   margin-left: 180px;
   
 }
-.pub1 {  
+.pub1 {   border-radius: 40px;
           margin-left: 80px;
           width: 80%;
-          height: 80%;  
+          height: 80%;
+          margin-top: 70px;  
 }
-.pub2 {
+.pub2 {border-radius: 40px;
       margin-right: 80px;
       width: 80%;
       height: 80%;
+     
       
 }
 /*-------------------------*/
- h2 { font-family: "DancingScript-Bold.ttf";
+ h1 { font-family: "DancingScript-Bold.ttf";
 
 }
 .foot-lg {

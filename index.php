@@ -33,18 +33,18 @@ include 'views/header.php';
             <div class="carousel-inner">
                
                 <a class="carousel-item active" href="../views/catalogues.html">
-                    <img src="../img/deguste.jpg" alt="" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                    <img src="../public/img/deguste.jpg" alt="" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
                     <div class="container">
                             <div class="carousel-caption text-end text-warning">
                                 <h1>Chez nous</h1>
-                                <p>Encore plus de desserts</p>
+                                <p><h1>Encore plus de desserts</h1></p>
                             </div>
                     </div>
                 </a>
 
                 <div class="carousel-item">
                     <a class="lien " href="../views/catalogues.html">
-                        <img src="../img/amourmariage.jpg" alt="" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                        <img src="../public/img/amourmariage.jpg" alt="" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
                         <div class="container">
                             <div class="carousel-caption  text-dark">
                                 <h1>Offrez une déclaration gourmante à vos amours ! </h1>
@@ -55,10 +55,10 @@ include 'views/header.php';
 
                 <div class="carousel-item">
                     <a class="lien" href="../views/catalogues.html">
-                        <img src="../img/delicieux.jpg" alt="" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                        <img src="../public/img/delicieux.jpg" alt="" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
                         <div class="container">
                             <div class="new ">
-                            <img src="../img/new.png" width="200px" height="200px"/>
+                            <img src="../public/img/new.png" width="200px" height="200px"/>
                             </div>
                             <div class="carousel-caption  text-white text-start">
                                 <h1>Extra Délicieux ! </h1>
@@ -84,7 +84,7 @@ include 'views/header.php';
         <!-- Three columns of text below the carousel -->
         <div class="row">
             <div class="col-lg-4">
-                <img src="../img/livraison.jpg" class="bd-placeholder-img rounded-circle" alt="" width="180" height="180" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                <img src="../public/img/livraison.jpg" class="bd-placeholder-img rounded-circle" alt="" width="180" height="180" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" />
 
                 <h2 class="fw-normal">COMMANDER EN</h2>
                 <p>
@@ -96,7 +96,7 @@ include 'views/header.php';
             </div>
             <!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <img src="../img/disponibility.jpg" class="bd-placeholder-img rounded-circle" alt="" width="180" height="180" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                <img src="../public/img/disponibility.jpg" class="bd-placeholder-img rounded-circle" alt="" width="180" height="180" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" />
 
 
                 <h2 class="fw-normal">PRODUITS DISPONIBLES</h2>
@@ -109,7 +109,7 @@ include 'views/header.php';
             </div>
             <!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <img src="../img/saison.jpg" class="bd-placeholder-img rounded-circle" alt="" width="180" height="180" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                <img src="../public/img/saison.jpg" class="bd-placeholder-img rounded-circle" alt="" width="180" height="180" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" />
 
 
                 <h2 class="fw-normal">GATEAUX</h2>
@@ -127,7 +127,7 @@ include 'views/header.php';
 
         <div class="row">
            <div class="col-lg-6 ">
-                <img src="../img/mariage1.webp" class="pub1"/>  
+                <img src="../public/img/mariage1.webp" class="pub1"/>  
             </div>
             <div class="col-lg-6 ">
                 <div class="cake-title">
@@ -144,7 +144,7 @@ include 'views/header.php';
                     </div> 
             </div>
             <div class="col-lg-6 ">
-                <img src="../img/anniversaire.jpg" class="pub2"/> 
+                <img src="../public/img/anniversaire.jpg" class="pub2"/> 
             </div>
         </div>
     

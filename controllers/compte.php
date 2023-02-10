@@ -1,5 +1,4 @@
 <?php
- 
 include "../views/header.php";
 ?>
 <!DOCTYPE html>
@@ -22,11 +21,11 @@ include "../views/header.php";
 </head>
 
 
-<nav class="formulaire">
-    <form method="post" class="w-50 ">
+<nav class="formulaire" >
+    <form method="post" >
 
         <div class="form_group">
-            <label for="titre" class="m-3 w-2 ">Prénom *</label>
+            <label for="titre" class="mt-3 w-2 ">Prénom *</label>
             <input  class="form-control mt-2" type="text" name="prenom">
         </div>
         <div class="form_group">
@@ -63,9 +62,9 @@ include "../views/header.php";
             <label for="contenu" class="mt-3 mb-3">Date de naissance *</label>
             <input  class="form-control mt-2" type="text" name="nom">
         </div>
-        <button  class="bg-dark text-white" type="submit">ENREGISTRER</button>
+        <a  class=" btn btn-dark  mt-5 btn-hover"  type="submit">ENREGISTRER</a>
         
-        <p> Vous avez déjà un compte ? <a href="user.php?id=<?php //les données recupérer de la base de données ?>">Connectez-vous à la place!</a>
+        <p> Vous avez déjà un compte ? <a href="connect.php?id=<?php //les données recupérer de la base de données ?>">Connectez-vous à la place!</a>
     </form>
 </nav>
 

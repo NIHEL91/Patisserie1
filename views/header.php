@@ -2,7 +2,7 @@
 <header>
 <nav class="navbar navbar-expand-lg  ">
         <div class="container-fluid">
-            <img src="../img/logo.png" class="logo"/>
+            <img src="../public/img/logo.png" class="logo"/>
 
             <a class="navbar-brand  px-3" href="index.php"><h5>Accueil</h5></a>
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,10 +41,10 @@
                 } else {                
 
                     // non connecté
-                    echo'<span> <a href="controllers/compte.php"  class="btn  btn-sm me-2 "><img src="../img/carré-jaune.png" class="compte"/></a></span>';
+                    echo'<span> <a href="controllers/compte.php"  class="btn  btn-sm me-2 "><img src="../public/img/carré-jaune.png" class="compte"/></a></span>';
                 //echo '<span><a href="controllers/connect.php" class="btn btn-outline-warning ">Créer un compte</a>';
                 } ?>
-                <a href="#"  class="btn  btn-sm me-2 "><img src="../img/panier.png" class="panier"/></a>
+                <a href="#"  class="btn  btn-sm me-2 "><img src="../public/img/panier.png" class="panier"/></a>
                 
                 <span class="badge badge-secondary text-warning"> <?php echo date('l d.m.Y'); ?></span>
                 <!--<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
