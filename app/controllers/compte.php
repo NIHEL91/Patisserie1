@@ -21,7 +21,7 @@ include "../views/header.php";
 </head>
 
 
-<nav class="formulaire" >
+<nav class="formulaire row-md" >
     <form method="post" >
 
         <div class="form_group">

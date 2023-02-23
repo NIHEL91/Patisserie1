@@ -1,0 +1,16 @@
+{
+    "name": "patisserie/app",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Patisserie\\App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ghoul Nihel",
+            "email": "nihel.elghoul@gmail.com"
+        }
+    ],
+    "require": {}
+}
