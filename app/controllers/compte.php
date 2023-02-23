@@ -1,5 +1,5 @@
 <?php
-include "../views/header.php";
+include "../app/views/header.php";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -71,5 +71,5 @@ include "../views/header.php";
 
 
 <?php
-include "../views/footer.php";
+include "../app/views/footer.php";
 ?>
